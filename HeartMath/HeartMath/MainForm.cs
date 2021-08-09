@@ -141,6 +141,7 @@ namespace HeartMath
         float a;
         private void Create_MouseClick(object sender, MouseEventArgs e)
         {
+            count = 0;
             if (p == 1)
             {
                 #region очистить полотно
@@ -203,8 +204,9 @@ namespace HeartMath
             MainGroup.Enabled = true;
         }
 
-            byte p = 1;
+        byte p = 1;
         sbyte rgb = 0;
+        int count = 0;
         private void ATimer_Elapsed(object sender, ElapsedEventArgs e)
         {
             aTimer.Enabled = false;
@@ -240,7 +242,18 @@ namespace HeartMath
                 MainGroup.BeginInvoke(new InvokeDelegate(InvokeMethod2));
                 return;
             }
+            if (SaveScreen.Checked)
+            {
+                pb.BeginInvoke(new InvokeDelegate(InvokeMethod3));
+                //Tab.Save("D:\\HeartMath\\Img" + count + ".jpg");
+                count++;
+            }
             aTimer.Enabled = true;
+        }
+
+        public void InvokeMethod3()
+        {
+            pb.Image.Save("fileImg" + count + ".jpg");
         }
 
         private void ModBut_MouseClick(object sender, MouseEventArgs e)

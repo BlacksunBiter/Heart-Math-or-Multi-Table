@@ -61,6 +61,7 @@
             this.colorDialog = new System.Windows.Forms.ColorDialog();
             this.Mn = new System.Windows.Forms.Label();
             this.saveFileDialog = new System.Windows.Forms.SaveFileDialog();
+            this.SaveScreen = new System.Windows.Forms.CheckBox();
             this.MainGroup.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.MnojText)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.KolText)).BeginInit();
@@ -306,6 +307,7 @@
             // 
             // ModGroup
             // 
+            this.ModGroup.Controls.Add(this.SaveScreen);
             this.ModGroup.Controls.Add(this.ColorRandom);
             this.ModGroup.Controls.Add(this.KonMnoj);
             this.ModGroup.Controls.Add(this.Km);
@@ -337,7 +339,7 @@
             // 
             this.KonMnoj.Location = new System.Drawing.Point(9, 92);
             this.KonMnoj.Maximum = new decimal(new int[] {
-            360,
+            720,
             0,
             0,
             0});
@@ -353,7 +355,7 @@
             this.Km.Name = "Km";
             this.Km.Size = new System.Drawing.Size(88, 13);
             this.Km.TabIndex = 9;
-            this.Km.Text = "Конкчный множ";
+            this.Km.Text = "Конечный множ";
             // 
             // UpMnoj
             // 
@@ -364,7 +366,6 @@
             0,
             0});
             this.UpMnoj.Name = "UpMnoj";
-            this.UpMnoj.ReadOnly = true;
             this.UpMnoj.Size = new System.Drawing.Size(85, 20);
             this.UpMnoj.TabIndex = 8;
             this.UpMnoj.Value = new decimal(new int[] {
@@ -468,6 +469,16 @@
             this.Mn.Text = "Mn";
             this.Mn.Visible = false;
             // 
+            // SaveScreen
+            // 
+            this.SaveScreen.AutoSize = true;
+            this.SaveScreen.Location = new System.Drawing.Point(73, 118);
+            this.SaveScreen.Name = "SaveScreen";
+            this.SaveScreen.Size = new System.Drawing.Size(88, 17);
+            this.SaveScreen.TabIndex = 12;
+            this.SaveScreen.Text = "Save Screen";
+            this.SaveScreen.UseVisualStyleBackColor = true;
+            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -536,6 +547,7 @@
         private System.Windows.Forms.Label Mn;
         private System.Windows.Forms.CheckBox ColorRandom;
         private System.Windows.Forms.SaveFileDialog saveFileDialog;
+        private System.Windows.Forms.CheckBox SaveScreen;
     }
 }
 

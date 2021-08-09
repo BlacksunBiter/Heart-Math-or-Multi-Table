@@ -28,3 +28,13 @@ E:\progi\HeartMath\HeartMath\obj\Debug\HeartMath.csproj.GenerateResource.cache
 E:\progi\HeartMath\HeartMath\obj\Debug\HeartMath.csproj.CoreCompileInputs.cache
 E:\progi\HeartMath\HeartMath\obj\Debug\HeartMath.exe
 E:\progi\HeartMath\HeartMath\obj\Debug\HeartMath.pdb
+D:\MyPrograms\GitHub\Heart-Math-or-Multi-Table\HeartMath\HeartMath\bin\Debug\HeartMath.exe.config
+D:\MyPrograms\GitHub\Heart-Math-or-Multi-Table\HeartMath\HeartMath\bin\Debug\HeartMath.exe
+D:\MyPrograms\GitHub\Heart-Math-or-Multi-Table\HeartMath\HeartMath\bin\Debug\HeartMath.pdb
+D:\MyPrograms\GitHub\Heart-Math-or-Multi-Table\HeartMath\HeartMath\obj\Debug\HeartMath.csproj.AssemblyReference.cache
+D:\MyPrograms\GitHub\Heart-Math-or-Multi-Table\HeartMath\HeartMath\obj\Debug\HeartMath.FormMain.resources
+D:\MyPrograms\GitHub\Heart-Math-or-Multi-Table\HeartMath\HeartMath\obj\Debug\HeartMath.Properties.Resources.resources
+D:\MyPrograms\GitHub\Heart-Math-or-Multi-Table\HeartMath\HeartMath\obj\Debug\HeartMath.csproj.GenerateResource.cache
+D:\MyPrograms\GitHub\Heart-Math-or-Multi-Table\HeartMath\HeartMath\obj\Debug\HeartMath.csproj.CoreCompileInputs.cache
+D:\MyPrograms\GitHub\Heart-Math-or-Multi-Table\HeartMath\HeartMath\obj\Debug\HeartMath.exe
+D:\MyPrograms\GitHub\Heart-Math-or-Multi-Table\HeartMath\HeartMath\obj\Debug\HeartMath.pdb
